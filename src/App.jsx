@@ -9,7 +9,7 @@ import Projectbox from "./components/Projectbox.jsx";
 function App() {
 
   return (
-    <div>
+    <div className="flex min-h-screen w-screen bg-custom-dark-brown flex-col font-inter text-white px-8 gap-24">
         <Header />
         <Hero />
         <AboutMe />
