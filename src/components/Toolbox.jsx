@@ -1,17 +1,12 @@
 export default function Toolbox() {
   return (
-    <section>
-      <h1>Toolbox</h1>
-      <p>
-        Here are some of the tools I use to build websites:
-      </p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
+    <section className="flex flex-row justify-center px-32">
+        <div className="flex flex-col w-[71rem]">
+            <h2 className="text-[1.75rem] font-extrabold">My Tools</h2>
+            <div className="w-[54.5rem] h-[13.75rem] text-[1.125rem] font-normal">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit litora rutrum, congue eget tempus massa montes vel condimentum. Urna fermentum aptent interdum convallis mauris vel mattis pharetra class, euismod purus tempor quis erat felis nostra ut porttitor at, sapien varius inceptos eros orci sodales potenti morbi. Leo mi tempus nulla.
+            </div>
+        </div>
     </section>
   );
 }
