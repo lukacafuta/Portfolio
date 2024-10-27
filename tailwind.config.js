@@ -8,9 +8,12 @@ export default {
     extend: {
       colors: {
         "custom-dark-brown": "#1A0D01",
+        "custom-linkedin-brown": "#994C09",
+        "custom-github-green": "#869909",
       },
         fontFamily: {
             inter: ["Inter", "sans-serif"],
+          poppins: ["Poppins", "sans-serif"],
       },
     },
   },
