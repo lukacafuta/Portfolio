@@ -24,7 +24,7 @@ export default function Hero() {
             </div>
         </div>
         <div>
-            <img src="/profile-photo.svg" alt="profile-photo"/>
+            <img src="/profile-photo.svg" alt="Profile photo"/>
         </div>
     </section>
   );
