@@ -4,7 +4,7 @@ export default function Hero() {
         <div className="flex flex-col justify-center pr-32">
             <h1 className="text-[3.75rem] font-extrabold">Hi, I'm Luka!</h1>
             <h2 className="text-[1.75rem] font-semibold pb-4">Full Stack Developer from Switzerland.</h2>
-            <div className="flex flex-row gap-4 font-poppins">
+            <div className="flex flex-row gap-4">
                 <a
                     href="https://www.linkedin.com/in/luka-cafuta"
                     target="_blank"
