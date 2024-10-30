@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "icon-link": "https://cdn.svgporn.com/logos/javascript.svg"
+  },
+  {
+    "id": 2,
+    "name": "HTML",
+    "icon-link": "https://cdn.svgporn.com/logos/html-5.svg"
+  },
+  {
+    "id": 3,
+    "name": "CSS",
+    "icon-link": "https://cdn.svgporn.com/logos/css-3.svg"
+  },
+  {
+    "id": 4,
+    "name": "Tailwind CSS",
+    "icon-link": "https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
+  },
+  {
+    "id": 5,
+    "name": "Styled Components",
+    "icon-link": "https://cdn.svgporn.com/logos/styled-components.svg"
+  },
+  {
+    "id": 6,
+    "name": "SASS",
+    "icon-link": "https://cdn.svgporn.com/logos/sass.svg"
+  },
+  {
+    "id": 7,
+    "name": "React",
+    "icon-link": "https://cdn.svgporn.com/logos/react.svg"
+  },
+  {
+    "id": 8,
+    "name": "React Router",
+    "icon-link": "https://cdn.svgporn.com/logos/react-router.svg"
+  },
+  {
+    "id": 9,
+    "name": "Redux",
+    "icon-link": "https://cdn.svgporn.com/logos/redux.svg"
+  },
+  {
+    "id": 10,
+    "name": "SQLite",
+    "icon-link": "https://cdn.svgporn.com/logos/sqlite.svg"
+  },
+  {
+    "id": 11,
+    "name": "PostgreSQL",
+    "icon-link": "https://cdn.svgporn.com/logos/postgresql.svg"
+  },
+  {
+    "id": 12,
+    "name": "Postman",
+    "icon-link": "https://cdn.svgporn.com/logos/postman.svg"
+  },
+  {
+    "id": 13,
+    "name": "Python",
+    "icon-link": "https://cdn.svgporn.com/logos/python.svg"
+  },
+  {
+    "id": 14,
+    "name": "Django",
+    "icon-link": "https://cdn.svgporn.com/logos/django.svg"
+  },
+  {
+    "id": 15,
+    "name": "Django REST Framework",
+    "icon-link": "https://cdn.svgporn.com/logos/django.svg"
+  },
+  {
+    "id": 16,
+    "name": "JWT",
+    "icon-link": "https://cdn.svgporn.com/logos/jwt-icon.svg"
+  },
+  {
+    "id": 17,
+    "name": "Git",
+    "icon-link": "https://cdn.svgporn.com/logos/git-icon.svg"
+  },
+  {
+    "id": 18,
+    "name": "GitHub",
+    "icon-link": "https://cdn.svgporn.com/logos/github-icon.svg"
+  },
+  {
+    "id": 19,
+    "name": "GitLab",
+    "icon-link": "https://cdn.svgporn.com/logos/gitlab.svg"
+  },
+  {
+    "id": 20,
+    "name": "Pony ORM",
+    "icon-link": "https://cdn.svgporn.com/logos/ponyorm.svg"
+  },
+  {
+    "id": 21,
+    "name": "Figma",
+    "icon-link": "https://cdn.svgporn.com/logos/figma.svg"
+  },
+  {
+    "id": 22,
+    "name": "PyCharm",
+    "icon-link": "https://cdn.svgporn.com/logos/pycharm.svg"
+  },
+  {
+    "id": 23,
+    "name": "conda",
+    "icon-link": "https://cdn.svgporn.com/logos/conda-forge.svg"
+  },
+  {
+    "id": 24,
+    "name": "npm",
+    "icon-link": "https://cdn.svgporn.com/logos/npm-icon.svg"
+  }
+]
