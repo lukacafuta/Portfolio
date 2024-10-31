@@ -22,7 +22,7 @@
   {
     "id": 5,
     "name": "Styled Components",
-    "icon-link": "https://cdn.svgporn.com/logos/styled-components.svg"
+    "icon-link": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png"
   },
   {
     "id": 6,
@@ -71,7 +71,7 @@
   },
   {
     "id": 15,
-    "name": "JWT",
+    "name": "JSON Web Token",
     "icon-link": "https://cdn.svgporn.com/logos/jwt-icon.svg"
   },
   {
@@ -81,31 +81,21 @@
   },
   {
     "id": 17,
-    "name": "GitHub",
-    "icon-link": "https://cdn.svgporn.com/logos/github-icon.svg"
+    "name": "Pony ORM",
+    "icon-link": "https://avatars.githubusercontent.com/u/3248238?v=4"
   },
   {
     "id": 18,
-    "name": "GitLab",
-    "icon-link": "https://cdn.svgporn.com/logos/gitlab.svg"
-  },
-  {
-    "id": 19,
-    "name": "Pony ORM",
-    "icon-link": "https://cdn.svgporn.com/logos/ponyorm.svg"
-  },
-  {
-    "id": 20,
     "name": "Figma",
     "icon-link": "https://cdn.svgporn.com/logos/figma.svg"
   },
   {
-    "id": 21,
+    "id": 19,
     "name": "PyCharm",
     "icon-link": "https://cdn.svgporn.com/logos/pycharm.svg"
   },
   {
-    "id": 22,
+    "id": 20,
     "name": "npm",
     "icon-link": "https://cdn.svgporn.com/logos/npm-icon.svg"
   }

@@ -15,6 +15,15 @@ export default {
             inter: ["Inter", "sans-serif"],
           poppins: ["Poppins", "sans-serif"],
       },
+      keyframes: {
+        flip: {
+          '0%': { transform: 'rotateY(0deg)' },
+          '100%': { transform: 'rotateY(180deg)' },
+        },
+      },
+      animation: {
+        flip: 'flip 0.6s ease-in-out',
+      },
     },
   },
   plugins: [],
