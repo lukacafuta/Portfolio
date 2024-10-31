@@ -8,10 +8,10 @@ export default function Tool({ iconLink , tool }) {
     }
 
     return(
-        <div className={`flex justify-center items-center w-32 h-16 m-2 border hover:scale-110 ${isFlipped ? 'animate-flip' : ''}`}
+        <div className={`flex justify-center items-center w-32 h-16 m-2 hover:scale-110 ${isFlipped ? 'animate-flip' : ''}`}
         onClick={handleClick}
         >
-            {isFlipped ? <img src={iconLink} alt={`${tool.name} icon`}/> : tool.name}
+            {isFlipped ? <img className="w-32 h-16" src={iconLink} alt={`${tool.name} icon`}/> : tool.name}
         </div>
     )
 }
