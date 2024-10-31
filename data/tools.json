@@ -71,51 +71,41 @@
   },
   {
     "id": 15,
-    "name": "Django REST Framework",
-    "icon-link": "https://cdn.svgporn.com/logos/django.svg"
-  },
-  {
-    "id": 16,
     "name": "JWT",
     "icon-link": "https://cdn.svgporn.com/logos/jwt-icon.svg"
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Git",
     "icon-link": "https://cdn.svgporn.com/logos/git-icon.svg"
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "GitHub",
     "icon-link": "https://cdn.svgporn.com/logos/github-icon.svg"
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "GitLab",
     "icon-link": "https://cdn.svgporn.com/logos/gitlab.svg"
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Pony ORM",
     "icon-link": "https://cdn.svgporn.com/logos/ponyorm.svg"
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "Figma",
     "icon-link": "https://cdn.svgporn.com/logos/figma.svg"
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "PyCharm",
     "icon-link": "https://cdn.svgporn.com/logos/pycharm.svg"
   },
   {
-    "id": 23,
-    "name": "conda",
-    "icon-link": "https://cdn.svgporn.com/logos/conda-forge.svg"
-  },
-  {
-    "id": 24,
+    "id": 22,
     "name": "npm",
     "icon-link": "https://cdn.svgporn.com/logos/npm-icon.svg"
   }

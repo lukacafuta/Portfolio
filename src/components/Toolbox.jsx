@@ -1,10 +1,17 @@
+import tools from '/data/tools.json';
+import Tool from "./Tool.jsx";
+
+
 export default function Toolbox() {
-  return (
+
+    return (
     <section className="flex flex-row justify-center px-32">
         <div className="flex flex-col w-[71rem]">
             <h2 className="text-[1.75rem] font-extrabold">My Tools</h2>
-            <div className="w-[54.5rem] h-[13.75rem] text-[1.125rem] font-normal">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit litora rutrum, congue eget tempus massa montes vel condimentum. Urna fermentum aptent interdum convallis mauris vel mattis pharetra class, euismod purus tempor quis erat felis nostra ut porttitor at, sapien varius inceptos eros orci sodales potenti morbi. Leo mi tempus nulla.
+            <div className="w-[54.5rem] text-[1.125rem] font-normal">
+                {tools.map((tool)=>(
+                    <Tool key={tool.id} iconLink={tool["icon-link"]}/>
+                ))}
             </div>
         </div>
     </section>
