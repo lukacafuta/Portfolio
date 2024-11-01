@@ -10,7 +10,7 @@ export default function Toolbox() {
             <h2 className="text-[1.75rem] font-extrabold">My Tools</h2>
             <div className="grid grid-cols-5 w-full gap-12 w-[54.5rem] text-[1.125rem] font-normal">
                 {tools.map((tool)=>(
-                    <Tool key={tool.id} iconLink={tool["icon-link"]} tool={tool}/>
+                    <Tool key={tool.id} tool={tool}/>
                 ))}
             </div>
         </div>
