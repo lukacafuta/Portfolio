@@ -2,101 +2,101 @@
   {
     "id": 1,
     "name": "JavaScript",
-    "icon-link": "https://cdn.svgporn.com/logos/javascript.svg"
+    "icon": "https://cdn.svgporn.com/logos/javascript.svg"
   },
   {
     "id": 2,
     "name": "HTML",
-    "icon-link": "https://cdn.svgporn.com/logos/html-5.svg"
+    "icon": "https://cdn.svgporn.com/logos/html-5.svg"
   },
   {
     "id": 3,
     "name": "CSS",
-    "icon-link": "https://cdn.svgporn.com/logos/css-3.svg"
+    "icon": "https://cdn.svgporn.com/logos/css-3.svg"
   },
   {
     "id": 4,
     "name": "Tailwind CSS",
-    "icon-link": "https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
+    "icon": "https://cdn.svgporn.com/logos/tailwindcss-icon.svg"
   },
   {
     "id": 5,
     "name": "Styled Components",
-    "icon-link": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png"
+    "icon": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png"
   },
   {
     "id": 6,
     "name": "SASS",
-    "icon-link": "https://cdn.svgporn.com/logos/sass.svg"
+    "icon": "https://cdn.svgporn.com/logos/sass.svg"
   },
   {
     "id": 7,
     "name": "React",
-    "icon-link": "https://cdn.svgporn.com/logos/react.svg"
+    "icon": "https://cdn.svgporn.com/logos/react.svg"
   },
   {
     "id": 8,
     "name": "React Router",
-    "icon-link": "https://cdn.svgporn.com/logos/react-router.svg"
+    "icon": "https://cdn.svgporn.com/logos/react-router.svg"
   },
   {
     "id": 9,
     "name": "Redux",
-    "icon-link": "https://cdn.svgporn.com/logos/redux.svg"
+    "icon": "https://cdn.svgporn.com/logos/redux.svg"
   },
   {
     "id": 10,
     "name": "SQLite",
-    "icon-link": "https://cdn.svgporn.com/logos/sqlite.svg"
+    "icon": "https://cdn.svgporn.com/logos/sqlite.svg"
   },
   {
     "id": 11,
     "name": "PostgreSQL",
-    "icon-link": "https://cdn.svgporn.com/logos/postgresql.svg"
+    "icon": "https://cdn.svgporn.com/logos/postgresql.svg"
   },
   {
     "id": 12,
     "name": "Postman",
-    "icon-link": "https://cdn.svgporn.com/logos/postman.svg"
+    "icon": "https://cdn.svgporn.com/logos/postman.svg"
   },
   {
     "id": 13,
     "name": "Python",
-    "icon-link": "https://cdn.svgporn.com/logos/python.svg"
+    "icon": "https://cdn.svgporn.com/logos/python.svg"
   },
   {
     "id": 14,
     "name": "Django",
-    "icon-link": "https://cdn.svgporn.com/logos/django.svg"
+    "icon": "https://cdn.svgporn.com/logos/django.svg"
   },
   {
     "id": 15,
     "name": "JSON Web Token",
-    "icon-link": "https://cdn.svgporn.com/logos/jwt-icon.svg"
+    "icon": "https://cdn.svgporn.com/logos/jwt-icon.svg"
   },
   {
     "id": 16,
     "name": "Git",
-    "icon-link": "https://cdn.svgporn.com/logos/git-icon.svg"
+    "icon": "https://cdn.svgporn.com/logos/git-icon.svg"
   },
   {
     "id": 17,
     "name": "Pony ORM",
-    "icon-link": "https://avatars.githubusercontent.com/u/3248238?v=4"
+    "icon": "https://avatars.githubusercontent.com/u/3248238?v=4"
   },
   {
     "id": 18,
     "name": "Figma",
-    "icon-link": "https://cdn.svgporn.com/logos/figma.svg"
+    "icon": "https://cdn.svgporn.com/logos/figma.svg"
   },
   {
     "id": 19,
     "name": "PyCharm",
-    "icon-link": "https://cdn.svgporn.com/logos/pycharm.svg"
+    "icon": "https://cdn.svgporn.com/logos/pycharm.svg"
   },
   {
     "id": 20,
     "name": "npm",
-    "icon-link": "https://cdn.svgporn.com/logos/npm-icon.svg"
+    "icon": "https://cdn.svgporn.com/logos/npm-icon.svg"
   }
 ]
