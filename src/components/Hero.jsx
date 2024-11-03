@@ -9,7 +9,7 @@ export default function Hero() {
                     href="https://www.linkedin.com/in/luka-cafuta"
                     target="_blank"
                     rel="noopener noreferrer" // This is a security measure to prevent malicious websites from accessing your data
-                    className="flex flex-row items-center justify-center bg-custom-linkedin-brown w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
+                    className="flex flex-row items-center justify-center bg-custom-linkedin-burgundy w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
                 >
                     <img src="/linkedin-logo.svg" alt="LinkedIn button"/>
                     <div className="font-semibold font-poppins">
@@ -20,7 +20,7 @@ export default function Hero() {
                     href="https://github.com/lukacafuta"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-row items-center justify-center bg-custom-github-green w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
+                    className="flex flex-row items-center justify-center bg-custom-github-dark-green w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
                 >
                     <img src="/github-logo.svg" alt="GitHub button"/>
                     <div className="font-semibold font-poppins">

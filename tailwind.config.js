@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        "custom-dark-brown": "#1A0D01",
-        "custom-linkedin-brown": "#994C09",
-        "custom-github-green": "#869909",
+        // "custom-dark-brown": "#1A0D01",
+        "custom-light-brown": "#554838",
+        // "custom-linkedin-brown": "#994C09",
+        "custom-linkedin-burgundy": "#7B2652",
+        // "custom-github-green": "#869909",
+        "custom-github-dark-green": "#418170",
       },
         fontFamily: {
             inter: ["Inter", "sans-serif"],
