@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 export default function ThemeToggleButton() {
-    const [isLightMode, setIsLightMode] = useState(true);
+    const [isLightMode, setIsLightMode] = useState(false);
 
     const toggleTheme = () => {
         setIsLightMode(!isLightMode);
