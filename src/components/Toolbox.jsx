@@ -5,19 +5,18 @@ import Tool from "./Tool.jsx";
 
 export default function Toolbox() {
 
-
     return (
-    <section className="flex flex-row justify-center px-32">
-        <div className="flex flex-col w-[71rem]">
-            <h2 className="text-[1.75rem] font-extrabold pb-6">My Tools</h2>
-            <div className="flex flex-wrap w-full justify-between text-[1.125rem] font-normal">
-                {tools.map((tool)=>(
-                    <div key={tool.id} className="flex-grow-0 flex-shrink-0 basis-[18%] mb-12">
-                    <Tool tool={tool} />
-                    </div>
-                ))}
+        <section className="flex flex-row justify-center px-32">
+            <div className="flex flex-col w-[71rem]">
+                <h2 className="text-[1.75rem] font-extrabold pb-6">My Tools</h2>
+                <div className="flex flex-wrap w-full justify-between text-[1.125rem] font-normal">
+                    {tools.map((tool)=>(
+                        <div key={tool.id} className="flex-grow-0 flex-shrink-0 basis-[18%] mb-12">
+                        <Tool tool={tool} />
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
-    </section>
-  );
+        </section>
+    );
 }
