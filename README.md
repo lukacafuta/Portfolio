@@ -34,12 +34,6 @@ This is my personal portfolio website. It showcases my skills, projects, technic
 - **Link**: [Portfolio Frontend](https://github.com/lukacafuta/Portfolio-Frontend)
 - **Technologies**: React.js, Tailwind CSS, Netlify
 
-### Simple Online Shop
-
-- **Description**: Building a simple web app with the following elements: navigation bar, shop overview, shopping cart, login page, registration page.
-- **Link**: [Simple Online Shop](https://github.com/lukacafuta/Simple-Online-Shop)
-- **Technologies**: React.js, Styled Components, Netlify
-
 ## License
 
 This project is licensed under the MIT License.
