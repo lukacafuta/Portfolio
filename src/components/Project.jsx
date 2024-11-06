@@ -14,11 +14,7 @@ export default function Project( {project} ) {
                     </div>
                 </div>
                 <div className="w-[50%] h-[28rem] rounded-2xl shadow-xl">
-                    <div>Project</div>
-                    <div className="flex flex-row gap-2">
-                        <button className="border-2 cursor-pointer">next</button>
-                        <button className="border-2 cursor-pointer">previous</button>
-                    </div>
+                    <div>Project image</div>
                 </div>
             </div>
     )
