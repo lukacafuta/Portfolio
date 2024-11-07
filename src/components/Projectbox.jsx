@@ -20,7 +20,7 @@ export default function Projectbox() {
     return (
         <section className="flex flex-row justify-center">
             <div className="flex flex-col w-full">
-                <h2 className="text-5xl font-extrabold pb-6">Work</h2>
+                <h2 className="text-5xl font-extrabold pb-8">Work</h2>
                 <div>
                     <Project project={projects[currentProject]} />
                 </div>

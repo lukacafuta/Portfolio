@@ -14,7 +14,7 @@ export default function Project( {project} ) {
                     </div>
                 </div>
                 <div className="w-[50%] h-[28rem] rounded-2xl shadow-xl">
-                    <div>Project image</div>
+                    <img src={project.images} alt={project.title} className="w-full h-full object-cover rounded-2xl"/>
                 </div>
             </div>
     )
