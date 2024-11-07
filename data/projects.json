@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Excuse Generator",
+    "description": "Building a simple web app that generates random excuses. You will be able to choose from different categories and also add your own excuses to the database.",
+    "link": "https://github.com/lukacafuta/Excuse-Generator",
+    "technologies": [
+      "React.js,",
+      "Styled Components,",
+      "Netlify"
+    ],
+    "images": [
+      "excuse-generator.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "HR Leave Management Tool",
+    "description": "Creating a tool where HR and team managers can handle leave requests and keep track of employee absence. Employees can request vacations, trainings and file absence notices. This was a final project for my intensive full stack course.",
+    "link": [
+      "https://github.com/lukacafuta/HR-Genie-Frontend",
+      "https://github.com/lukacafuta/HR-Genie-Backend",
+      "https://github.com/lukacafuta/HR-Genie-Documents"
+    ],
+    "technologies": [
+      "React.js,",
+      "Django,",
+      "Postgres,",
+      "Heroku,",
+      "Netlify,",
+      "DigitalOcean"
+    ],
+    "images": [
+    ]
+  },
+  {
+    "id": 3,
+    "title": "LC Portfolio",
+    "description": "This is my personal portfolio website. It showcases my skills, projects, technical and professional background.",
+    "link": "https://github.com/lukacafuta/Portfolio-Frontend",
+    "technologies": [
+      "React.js,",
+      "Tailwind CSS,",
+      "Netlify"
+    ],
+    "images": [
+      "portfolio.png"
+    ]
+  }
+]

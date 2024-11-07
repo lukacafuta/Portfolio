@@ -1,9 +1,11 @@
 export default function Hero() {
   return (
-    <section className="flex flex-row justify-center px-32">
-        <div className="flex flex-col justify-center pr-32">
-            <h1 className="text-[3.75rem] font-extrabold">Hi, I'm Luka!</h1>
-            <h2 className="text-[1.75rem] font-semibold pb-8">Full Stack Developer from Switzerland.</h2>
+    <section className="flex flex-row justify-between mb-">
+        <div className="flex flex-col justify-center">
+            <h1 className="text-6xl font-extrabold pb-4">
+                Sali, I'm <span className="block pt-4">Luka Cafuta</span>
+            </h1>
+            <h2 className="text-3xl font-semibold pb-12">Full Stack Developer from Switzerland.</h2>
             <div className="flex flex-row gap-4">
                 <a
                     href="https://www.linkedin.com/in/luka-cafuta"
