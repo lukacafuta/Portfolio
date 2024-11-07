@@ -13,8 +13,20 @@ export default function Project( {project} ) {
                         </ul>
                     </div>
                 </div>
-                <div className="w-[50%] h-[28rem] rounded-2xl shadow-xl">
-                    <img src={project.images} alt={project.title} className="w-full h-full object-cover rounded-2xl"/>
+                <div className="w-[50%] h-[28rem] flex justify-center items-center rounded-2xl relative">
+                    {/* background Laptop SVG */}
+                    <img
+                        src="/laptop-image-holder.svg"
+                        alt="laptop screen"
+                        className="absolute inset-0 w-full h-full object-contain pointer-events-none"
+                    />
+                    {/* project image inside the laptop screen */}
+                    <div className="w-[70%] h-[75.5%] absolute" style={{ top: '5%', left: '22%' }}>
+                        <img
+                            src={project.images}
+                            alt={project.title}
+                            className="w-full h-full object-cover"/>
+                    </div>
                 </div>
             </div>
     )
