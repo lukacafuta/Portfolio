@@ -5,11 +5,12 @@
     "description": "Building a simple web app that generates random excuses. You will be able to choose from different categories and also add your own excuses to the database.",
     "link": "https://github.com/lukacafuta/Excuse-Generator",
     "technologies": [
-      "React.js",
-      "Styled Components",
+      "React.js,",
+      "Styled Components,",
       "Netlify"
     ],
     "images": [
+      "excuse-generator.png"
     ]
   },
   {
@@ -22,12 +23,12 @@
       "https://github.com/lukacafuta/HR-Genie-Documents"
     ],
     "technologies": [
-      "React.js",
-      "Django",
-      "Postgres",
-      "Heroku",
-      "Netlify",
-      "DigitalOcean Spaces"
+      "React.js,",
+      "Django,",
+      "Postgres,",
+      "Heroku,",
+      "Netlify,",
+      "DigitalOcean"
     ],
     "images": [
     ]
@@ -38,11 +39,12 @@
     "description": "This is my personal portfolio website. It showcases my skills, projects, technical and professional background.",
     "link": "https://github.com/lukacafuta/Portfolio-Frontend",
     "technologies": [
-      "React.js",
-      "Tailwind CSS",
+      "React.js,",
+      "Tailwind CSS,",
       "Netlify"
     ],
     "images": [
+      "portfolio.png"
     ]
   }
 ]
