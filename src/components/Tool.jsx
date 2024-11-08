@@ -40,7 +40,7 @@ export default function Tool({ tool }) {
                 onClick={handleIconClick}
             />
             {showPopup && (
-                <div className="absolute top-[-2rem] left-[90%] bg-gray-600 rounded shadow-lg p-2"
+                <div className="absolute top-[-2rem] left-[90%] bg-custom-milk-chocolate-brown rounded shadow-lg p-2"
                     style={{ whiteSpace: 'nowrap' }} // keeps the popup text in a single line
                 >
                     {tool.name}

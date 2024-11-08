@@ -7,19 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        // "custom-dark-brown": "#1A0D01",
-        "custom-light-brown": "#554838",
-        // "custom-linkedin-brown": "#994C09",
-        // "custom-toggle-icon-grey": "#C6C5C0",
-        "custom-toggle-slider-grey": "#D9D9D9",
-        "custom-linkedin-burgundy": "#7B2652",
-        // "custom-github-green": "#869909",
-        "custom-github-dark-green": "#418170",
+        "custom-dark-chocolate-brown": "#1F1104",
+        "custom-milk-chocolate-brown": "#522D0C",
+        "custom-light-chocolate-brown": "#F5E7DA",
       },
         fontFamily: {
-            inter: ["Inter", "sans-serif"],
-          poppins: ["Poppins", "sans-serif"],
-          chopin: ["ChopinScript", "sans-serif"],
+            inter: ["Inter", "sans-serif"]
       },
     },
   },

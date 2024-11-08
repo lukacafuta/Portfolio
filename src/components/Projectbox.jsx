@@ -20,7 +20,7 @@ export default function Projectbox() {
     return (
         <section className="flex flex-row justify-center">
             <div className="flex flex-col w-full">
-                <h2 className="text-5xl font-extrabold pb-8">Work</h2>
+                <h2 className="text-3xl font-extrabold mb-6">Work</h2>
                 <div>
                     <Project project={projects[currentProject]} />
                 </div>
@@ -28,13 +28,13 @@ export default function Projectbox() {
                     <button
                         onClick={handlePrevious}
                         aria-label="Previous Project"
-                        className="flex flex-row items-center justify-center w-16 h-10 bg-custom-linkedin-burgundy rounded-lg cursor-pointer hover:scale-110 shadow-md">
+                        className="flex flex-row items-center justify-center w-16 h-10 rounded-lg cursor-pointer hover:scale-110 shadow-md">
                         <img src="/arrow-left-darkmode.svg" alt="arrow left" className="w-8 h-8" />
                     </button>
                     <button
                         onClick={handleNext}
                         aria-label="Next Project"
-                        className="flex flex-row items-center justify-center w-16 h-10 bg-custom-linkedin-burgundy rounded-lg cursor-pointer hover:scale-110 shadow-md">
+                        className="flex flex-row items-center justify-center w-16 h-10 rounded-lg cursor-pointer hover:scale-110 shadow-md">
                         <img src="/arrow-right-darkmode.svg" alt="arrow right" className="w-8 h-8" />
                     </button>
                 </div>
