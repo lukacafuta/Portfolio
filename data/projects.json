@@ -18,9 +18,7 @@
     "title": "HR Leave Management Tool",
     "description": "Creating a tool where HR and team managers can handle leave requests and keep track of employee absence. Employees can request vacations, trainings and file absence notices. This was a final project for my intensive full stack course.",
     "link": [
-      "https://github.com/lukacafuta/HR-Genie-Frontend",
-      "https://github.com/lukacafuta/HR-Genie-Backend",
-      "https://github.com/lukacafuta/HR-Genie-Documents"
+      "https://github.com/lukacafuta/HR-Genie-Frontend"
     ],
     "technologies": [
       "React.js,",

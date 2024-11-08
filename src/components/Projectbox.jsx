@@ -25,11 +25,17 @@ export default function Projectbox() {
                     <Project project={projects[currentProject]} />
                 </div>
                 <div className="flex flex-row gap-4 justify-center mt-8">
-                    <button onClick={handlePrevious} aria-label="Next Project" className="cursor-pointer">
-                        <img src="/arrow-left-chevron-lightmode.svg" alt="arrow left" className="w-8 h-8" />
+                    <button
+                        onClick={handlePrevious}
+                        aria-label="Previous Project"
+                        className="flex flex-row items-center justify-center w-16 h-10 bg-custom-linkedin-burgundy rounded-lg cursor-pointer hover:scale-110 shadow-md">
+                        <img src="/arrow-left-darkmode.svg" alt="arrow left" className="w-8 h-8" />
                     </button>
-                    <button onClick={handleNext} aria-label="Next Project" className="cursor-pointer">
-                        <img src="/arrow-right-chevron-lightmode.svg" alt="arrow right" className="w-8 h-8" />
+                    <button
+                        onClick={handleNext}
+                        aria-label="Next Project"
+                        className="flex flex-row items-center justify-center w-16 h-10 bg-custom-linkedin-burgundy rounded-lg cursor-pointer hover:scale-110 shadow-md">
+                        <img src="/arrow-right-darkmode.svg" alt="arrow right" className="w-8 h-8" />
                     </button>
                 </div>
             </div>

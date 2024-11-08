@@ -17,11 +17,13 @@ export default function Project( {project} ) {
                     </div>
                 </div>
                 <div className="w-[50%] h-[28rem] flex justify-center items-center">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer">
                         <img
                             src={project.images}
                             alt={project.title}
-                            className="w-full h-full"
+                            className="hover:scale-110"
                         />
+                    </a>
                 </div>
             </div>
     )
