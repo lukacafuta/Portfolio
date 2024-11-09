@@ -3,14 +3,17 @@ export default function Hero({ theme }) {
     <section className="flex flex-row justify-between -mb-4">
         <div className="flex flex-col justify-center">
             <h1 className="text-5xl font-black mb-2 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                Sali, I'm Luka Cafuta
+                <p>Sali, I'm Luka Cafuta</p>
             </h1>
-            <h2 className="text-lg font-bold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                Chiseling React.js and Django into timeless</h2>
-            <h2 className="text-lg font-bold mb-6 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                digital craftsmanship.</h2>
-            <h2 className="text-lg font-normal mb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                Blockchain aficionado from Switzerland, turned full stack "stonemason".</h2>
+            <div className="text-lg font-bold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>Chiseling React.js and Django into timeless</p>
+            </div>
+            <div className="text-lg font-bold mb-6 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>digital craftsmanship.</p>
+            </div>
+            <div className="text-lg font-normal mb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>Blockchain aficionado from Switzerland, turned full stack "stonemason".</p>
+            </div>
             <div className="flex flex-row gap-4">
                 <a
                     href="https://www.linkedin.com/in/luka-cafuta"
