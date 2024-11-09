@@ -2,10 +2,18 @@ export default function Hero({ theme }) {
   return (
     <section className="flex flex-row justify-between -mb-4">
         <div className="flex flex-col justify-center">
-            <h1 className="text-5xl font-extrabold pb-4 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                Sali, I'm Luka Cafuta
+            <h1 className="text-5xl font-black mb-2 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>Sali, I'm Luka Cafuta</p>
             </h1>
-            <h2 className="text-2xl font-semibold pb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">Full Stack Developer from Switzerland.</h2>
+            <div className="text-lg font-bold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>Chiseling React.js and Django into timeless</p>
+            </div>
+            <div className="text-lg font-bold mb-6 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>digital craftsmanship.</p>
+            </div>
+            <div className="text-lg font-normal mb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                <p>Blockchain aficionado from Switzerland, turned full stack "stonemason".</p>
+            </div>
             <div className="flex flex-row gap-4">
                 <a
                     href="https://www.linkedin.com/in/luka-cafuta"
@@ -24,16 +32,19 @@ export default function Hero({ theme }) {
                     rel="noopener noreferrer"
                     className="flex flex-row items-center justify-center w-32 h-10 border border-custom-milk-chocolate-brown rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
                 >
-                    <img src={theme === 'light' ? "/github-logo-lightmode.svg" : "/github-logo-light-brown.svg"} alt="GitHub button"/>
+                    <img src={theme === 'light' ? "/github-logo-lightmode.svg" : "/github-logo-light-brown.svg"}
+                         alt="GitHub button"/>
 
-                    <div className="font-semibold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
+                    <div
+                        className="font-semibold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
                         GitHub
                     </div>
                 </a>
             </div>
         </div>
         <div>
-        <img src={theme === 'light' ? "/profile-photo-lightmode.svg" : "/profile-photo-darkmode.svg"} alt="Profile photo"/>
+            <img src={theme === 'light' ? "/profile-photo-lightmode.svg" : "/profile-photo-darkmode.svg"}
+                 alt="Profile photo"/>
         </div>
     </section>
   );

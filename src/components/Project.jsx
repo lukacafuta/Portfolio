@@ -7,7 +7,7 @@ export default function Project( {project} ) {
                     {/* adds a zero if id is single digit */}
                     <h2 className="text-2xl text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">{project.title}</h2>
                     <div className="text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">{project.description}</div>
-                    <ul className="flex flex-row gap-2 text-xl font-bold flex-wrap text-custom-milk-chocolate-brown dark:text-custom-dark-chocolate-brown">
+                    <ul className="flex flex-row gap-2 text-xl font-bold flex-wrap text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
                         {project.technologies.map((tech, index) => (
                             <li key={index}>{tech}</li>
                         ))}
