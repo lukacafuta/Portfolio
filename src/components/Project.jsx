@@ -3,11 +3,11 @@ export default function Project( {project} ) {
             <div className="w-full flex flex-row gap-12">
                 <div className="flex flex-col justify-between w-[50%] h-[28rem]">
                     <div
-                        className="flex flex-row justify-center items-center rounded-lg text-4xl font-extrabold bg-custom-milk-chocolate-brown h-16 w-16">{project.id.toString().padStart(2, '0')}</div>
+                        className="flex flex-row justify-center items-center rounded-lg text-4xl font-extrabold h-16 w-16 bg-custom-milk-chocolate-brown text-custom-light-chocolate-brown dark:text">{project.id.toString().padStart(2, '0')}</div>
                     {/* adds a zero if id is single digit */}
-                    <h2 className="text-2xl">{project.title}</h2>
-                    <div>{project.description}</div>
-                    <ul className="flex flex-row gap-2 text-xl text-custom-milk-chocolate-brown font-bold flex-wrap">
+                    <h2 className="text-2xl text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">{project.title}</h2>
+                    <div className="text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">{project.description}</div>
+                    <ul className="flex flex-row gap-2 text-xl font-bold flex-wrap text-custom-milk-chocolate-brown dark:text-custom-dark-chocolate-brown">
                         {project.technologies.map((tech, index) => (
                             <li key={index}>{tech}</li>
                         ))}
