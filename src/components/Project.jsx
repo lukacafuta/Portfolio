@@ -15,7 +15,7 @@ export default function Project( {project} ) {
                         {project.description}
                     </div>
                     <ul
-                        className="flex flex-row gap-2 text-lg md:text-xl font-bold flex-wrap text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown mt-4 md:mt-0"
+                        className="flex flex-row gap-2 text-base md:text-lg lg:text-xl font-bold flex-wrap text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown mt-4 md:mt-0"
                     >
                         {project.technologies.map((tech, index) => (
                             <li key={index}>{tech}</li>
