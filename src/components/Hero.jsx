@@ -40,7 +40,7 @@ export default function Hero({ theme }) {
             </div>
         </div>
         <div className="mt-8 md:mt-0">
-            <img src={theme === 'light' ? "/profile-photo-lightmode.svg" : "/profile-photo-darkmode.svg"}
+            <img src={theme === 'light' ? "/profile-photo-lightmode.png" : "/profile-photo-darkmode.png"}
                  alt="Profile photo"/>
         </div>
     </section>
