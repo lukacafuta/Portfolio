@@ -16,7 +16,7 @@ export default function Hero({ theme }) {
                     href="https://www.linkedin.com/in/luka-cafuta"
                     target="_blank"
                     rel="noopener noreferrer" // This is a security measure to prevent malicious websites from accessing your data
-                    className="flex flex-row items-center justify-center bg-custom-milk-chocolate-brown w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
+                    className="flex flex-row items-center justify-center bg-custom-milk-chocolate-brown w-32 h-10 rounded-lg gap-2 text-md cursor-pointer hover:scale-110 transition-transform duration-300"
                 >
                     <img src="/linkedin-logo-light-brown.svg" alt="LinkedIn button"/>
                     <div className="font-semibold text-custom-light-chocolate-brown">
@@ -27,7 +27,7 @@ export default function Hero({ theme }) {
                     href="https://github.com/lukacafuta"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex flex-row items-center justify-center w-32 h-10 border border-custom-milk-chocolate-brown rounded-lg gap-2 text-md cursor-pointer hover:scale-110"
+                    className="flex flex-row items-center justify-center w-32 h-10 border border-custom-milk-chocolate-brown rounded-lg gap-2 text-md cursor-pointer hover:scale-110 transition-transform duration-300"
                 >
                     <img src={theme === 'light' ? "/github-logo-lightmode.svg" : "/github-logo-light-brown.svg"}
                          alt="GitHub button"/>
@@ -40,7 +40,7 @@ export default function Hero({ theme }) {
             </div>
         </div>
         <div className="mt-8 md:mt-0">
-            <img src={theme === 'light' ? "/profile-photo-lightmode.svg" : "/profile-photo-darkmode.svg"}
+            <img src={theme === 'light' ? "/profile-photo-lightmode.png" : "/profile-photo-darkmode.png"}
                  alt="Profile photo"/>
         </div>
     </section>
