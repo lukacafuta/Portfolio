@@ -1,4 +1,4 @@
-export default function ThemeToggleButton({ toggleTheme, theme}) {
+export default function ThemeToggleButton({ toggleTheme, theme }) {
 
     return (
         <div className="flex items-center space-x-2">

@@ -29,7 +29,7 @@ export default function Hero({ theme }) {
                     rel="noopener noreferrer"
                     className="flex flex-row items-center justify-center w-32 h-10 border border-custom-milk-chocolate-brown rounded-lg gap-2 text-md cursor-pointer hover:scale-110 transition-transform duration-300"
                 >
-                    <img src={theme === 'light' ? "/github-logo-lightmode.svg" : "/github-logo-light-brown.svg"}
+                    <img src={theme === 'light' ? "/github-logo-lightmode.svg" : "/github-logo-darkmode.svg"}
                          alt="GitHub button"/>
 
                     <div
