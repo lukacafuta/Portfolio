@@ -10,8 +10,8 @@ export default function ThemeToggleButton({ toggleTheme, theme}) {
             <div className="flex items-center cursor-pointer w-14 h-8 rounded-full p-1 bg-custom-dark-chocolate-brown dark:bg-custom-light-chocolate-brown"
                  onClick={toggleTheme}
             >
-                <div className={`w-6 h-6 rounded-full shadow-md transform transition-transform bg-custom-milk-chocolate-brown ${
-                    theme === 'light' ? "translate-x-0" : "translate-x-6"
+                <div className={`w-6 h-6 rounded-full shadow-md transform transition-transform bg-custom-milk-chocolate-brown border ${
+                    theme === 'light' ? "border-custom-light-chocolate-brown translate-x-0" : "border-custom-dark-chocolate-brown translate-x-6"
                 }`}
                 ></div>
             </div>
