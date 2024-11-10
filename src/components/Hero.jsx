@@ -1,15 +1,12 @@
 export default function Hero({ theme }) {
   return (
-    <section className="flex flex-row justify-between -mb-4">
+    <section className="flex flex-col-reverse justify-between gap-4 -mb-4 md:flex-row">
         <div className="flex flex-col justify-center">
             <h1 className="text-5xl font-black mb-2 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
                 <p>Sali, I'm Luka Cafuta</p>
             </h1>
-            <div className="text-lg font-bold text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                <p>Chiseling React.js and Django into timeless</p>
-            </div>
             <div className="text-lg font-bold mb-6 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                <p>digital craftsmanship.</p>
+                <p>Chiseling React.js and Django into timeless digital craftsmanship.</p>
             </div>
             <div className="text-lg font-normal mb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
                 <p>Blockchain aficionado from Switzerland, turned full stack "stonemason".</p>
