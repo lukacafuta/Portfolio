@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from "react";
 
 export default function Tool({ tool }) {
-    // state to manage popup visiibility
+    // state to manage popup visibility
     const [showPopup, setShowPopup] = useState(false);
 
     // ref to keep track of the component
@@ -41,7 +41,7 @@ export default function Tool({ tool }) {
             />
             {showPopup && (
                 <div className="absolute top-[-2rem] left-[90%]  rounded shadow-lg p-2 bg-custom-milk-chocolate-brown text-custom-light-chocolate-brown"
-                    style={{ whiteSpace: 'nowrap' }} // keeps the popup text in a single line
+                    style={{ whiteSpace: 'normal', wordWrap: 'break-word' }}
                 >
                     {tool.name}
                 </div>

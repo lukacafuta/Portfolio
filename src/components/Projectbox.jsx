@@ -18,7 +18,7 @@ export default function Projectbox({ theme }) {
     };
 
     return (
-        <section className="flex flex-row justify-center">
+        <section className="flex justify-center">
             <div className="flex flex-col w-full">
                 <h2 className="text-3xl font-extrabold mb-6 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">Work</h2>
                 <div>
