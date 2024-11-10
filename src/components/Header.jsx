@@ -2,7 +2,7 @@ import ThemeToggleButton from "./ThemeToggleButton.jsx";
 
 export default function Header({ toggleTheme, theme}) {
   return (
-      <header className="flex flex-row justify-between w-full pt-14">
+      <header className="flex flex-row justify-between w-full pt-8 md:pt-14">
           <div>
                 <img
                     src={theme === 'light' ? "/luca-logo-lightmode.svg" : "/luca-logo-darkmode.svg"}
