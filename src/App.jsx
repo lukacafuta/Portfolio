@@ -19,7 +19,7 @@ function App() {
         setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
     }
   return (
-    <div className="flex flex-col mx-auto min-h-screen font-inter text-white gap-32 max-w-screen-lg">
+    <div className="flex flex-col mx-auto min-h-screen font-inter gap-32 max-w-screen-lg px-8 xl:p-0">
         <Header toggleTheme={toggleTheme} theme={theme} />
         <Hero theme={theme} />
         <AboutMe theme={theme} />
