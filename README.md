@@ -32,7 +32,7 @@ This is my personal portfolio website. It showcases my skills, projects, technic
 
 - **Description**: This is my personal portfolio website. It showcases my skills, projects, technical and professional background.
 - **Link**: [Portfolio Frontend](https://github.com/lukacafuta/Portfolio-Frontend)
-- **Technologies**: React.js, Tailwind CSS, Netlify
+- **Technologies**: React.js, Tailwind CSS, Django, Netlify
 
 ## License
 
