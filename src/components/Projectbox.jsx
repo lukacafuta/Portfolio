@@ -29,13 +29,21 @@ export default function Projectbox({ theme }) {
                         onClick={handlePrevious}
                         aria-label="Previous Project"
                         className="flex flex-row items-center justify-center w-16 h-10 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-300 shadow-md shadow-custom-dark-chocolate-brown/50 dark:shadow-custom-light-chocolate-brown/30">
-                        <img src="/arrow-left-milk-brown.svg" alt="arrow left" className="w-8 h-8" />
+                        <img
+                            src={theme === 'light' ? "/arrow-left-dark-brown.svg" : "/arrow-left-light-brown.svg"}
+                            alt="arrow left"
+                            className="w-8 h-8"
+                        />
                     </button>
                     <button
                         onClick={handleNext}
                         aria-label="Next Project"
                         className="flex flex-row items-center justify-center w-16 h-10 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-300 shadow-md shadow-custom-dark-chocolate-brown/50 dark:shadow-custom-light-chocolate-brown/30">
-                        <img src="/arrow-right-milk-brown.svg" alt="arrow right" className="w-8 h-8" />
+                        <img
+                            src={theme === 'light' ? "/arrow-right-dark-brown.svg" : "/arrow-right-light-brown.svg"}
+                            alt="arrow right"
+                            className="w-8 h-8"
+                        />
                     </button>
                 </div>
             </div>

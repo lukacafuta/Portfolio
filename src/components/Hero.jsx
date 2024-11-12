@@ -9,7 +9,7 @@ export default function Hero({ theme }) {
                 <p>Chiseling React.js and Django into timeless digital craftsmanship.</p>
             </div>
             <div className="text-lg font-normal mb-6 md:mb-12 text-custom-dark-chocolate-brown dark:text-custom-light-chocolate-brown">
-                <p>Blockchain aficionado from Switzerland, turned full stack "stonemason".</p>
+                <p>Blockchain aficionado from Switzerland, turned full stack developer.</p>
             </div>
             <div className="flex flex-row gap-4">
                 <a
