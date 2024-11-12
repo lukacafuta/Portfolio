@@ -10,7 +10,7 @@ import TagManager from "react-gtm-module/dist/TagManager.js";
 
 function App() {
 
-    const [theme, setTheme] = useState("dark");
+    const [theme, setTheme] = useState("light");
 
     useEffect(() => {
         TagManager.initialize({gtmId: 'GTM-NJ244G6S'});
@@ -31,9 +31,9 @@ function App() {
     <div className={`flex flex-col mx-auto min-h-screen font-inter gap-16 md:gap-32 max-w-screen-lg px-8 xl:p-0 ${theme}`}>
         <Header toggleTheme={toggleTheme} theme={theme} />
         <Hero theme={theme} />
-        <AboutMe theme={theme} />
-        <Toolbox theme={theme} />
         <Projectbox theme={theme} />
+        <Toolbox theme={theme} />
+        <AboutMe theme={theme} />
         <Footer theme={theme} />
     </div>
   )
