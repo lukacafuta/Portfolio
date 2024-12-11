@@ -8,6 +8,11 @@ test.describe("Projects Section", () => {
         await page.goto("https://luka-cafuta.ch/");
     });
 
+    test("should display the My Projects heading", async ({ page }) => {
+        const heading = await page.getByRole('heading', { name: 'Work' });
+        await expect(heading).toBeVisible();
+        await expect(heading).toHaveClass(/text-3xl font-extrabold/);
+    });
 
     // loop through each project in projects.json and run the same tests
     projects.forEach((project, index) => {

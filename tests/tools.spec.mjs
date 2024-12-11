@@ -9,6 +9,12 @@ test.describe("Tools Section", () => {
         await page.goto("https://luka-cafuta.ch/");
     });
 
+    test("should display the Tools heading", async ({ page }) => {
+        const heading = await page.getByRole('heading', { name: 'My Tools' });
+        await expect(heading).toBeVisible();
+        await expect(heading).toHaveClass(/text-3xl font-extrabold/);
+    });
+
     test("should display the correct tools with their correct images", async ({ page }) => {
         for (const tool of tools) {
             // check if the tool image is visible and has the correct source
