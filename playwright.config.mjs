@@ -2,6 +2,10 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
+ * Global setup function to clean the test-results folder before tests run
+ */
+
+/**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
@@ -24,6 +28,9 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    // Enable video recording for each test
+    video: 'on', // 'on', 'retain-on-failure', or 'off'
+
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
@@ -75,5 +82,8 @@ export default defineConfig({
   //   url: 'http://127.0.0.1:3000',
   //   reuseExistingServer: !process.env.CI,
   // },
+
+  // Reference the global setup file to clean the test-results folder before running tests
+  globalSetup: './globalSetup.mjs',
 });
 
