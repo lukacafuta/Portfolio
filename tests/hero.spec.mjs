@@ -7,23 +7,51 @@ test.describe("Hero Section", () => {
         await page.goto("https://luka-cafuta.ch/");
     });
 
+    test("should display the correct heading, paragraphs and profile photo", async ({ page }) => {
+       // check if the heading is correct
+        const heading = page.getByRole('heading', { name: "Sali, I'm Luka Cafuta" });
+        await expect(heading).toBeVisible();
 
-    test("should have correct metadata and elements", async({ page }) => {
+       // check if the first paragraph is displayed correctly
+        const firstParagraph = page.locator('p', { hasText: "Chiseling React.js and Django into timeless digital craftsmanship." });
+        await expect(firstParagraph).toBeVisible();
 
-        // check if the heading is correct
-        await expect(
-            page.getByRole("heading", {
-                name: "Sali, I'm Luka Cafuta",
-            })
-        ).toBeVisible();
+        // check if the second paragraph is displayed correctly
+        const secondParagraph = page.locator('p', { hasText: "Blockchain aficionado from Switzerland, turned full stack developer." });
+        await expect(secondParagraph).toBeVisible();
 
-        // check if the LinkedIn and GitHub links are correct (static properties: visibility, href)
+        // check if the profile photo is displayed correctly (for light theme, default)
+        const profilePhoto = page.locator('img[alt="Profile photo"]');
+        await expect(profilePhoto).toBeVisible();
+        await expect(profilePhoto).toHaveAttribute("src", "/profile-photo-lightmode.png");
+    });
+
+    test("should display the correct profile photo based on theme", async ({ page }) => {
+       const profilePhoto = page.locator('img[alt="Profile photo"]');
+
+       // check light teme profile photo by default
+        await expect(profilePhoto).toHaveAttribute("src", "/profile-photo-lightmode.png");
+
+        // toggle to dark theme
+        const toggleTheme = page.locator('div.cursor-pointer.w-14.h-8');
+        await toggleTheme.click();
+
+        // check dark theme profile photo
+        await expect(profilePhoto).toHaveAttribute("src", "/profile-photo-darkmode.png");
+    });
+
+    // group tests related to the social links
+    test("should display LinkedIn and GitHub links with correct attributes", async({ page }) => {
+
+        // locate the LinkedIn and GitHub links
         const linkedInLink = page.getByRole("link", { name: "LinkedIn"});
         const githubLink = page.getByRole("link", { name: "Github"});
 
+        // check visibility
         await expect(linkedInLink).toBeVisible();
         await expect(githubLink).toBeVisible();
 
+        // check href attributes
         await expect(linkedInLink).toHaveAttribute("href", "https://www.linkedin.com/in/luka-cafuta");
         await expect(githubLink).toHaveAttribute("href", "https://github.com/lukacafuta");
     });
@@ -63,5 +91,4 @@ test.describe("Hero Section", () => {
 
         await expect(newPage).toHaveURL("https://github.com/lukacafuta");
     });
-
 });
