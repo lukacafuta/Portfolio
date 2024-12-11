@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Header', () => {
+test.describe('Header Section', () => {
 
     // create a hook that will run before each test, it will go to the portfolio page
     test.beforeEach(async ({ page }) => {
