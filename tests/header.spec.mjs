@@ -7,6 +7,12 @@ test.describe('Header', () => {
         await page.goto('https://luka-cafuta.ch/');
     });
 
+    test("should have correct metadata", async({ page }) => {
+
+        // check if the title of the page is correct
+        await expect(page).toHaveTitle("Luka's Portfolio");
+    });
+
     test("should display logo with correct image based on theme", async ({ page }) => {
 
         // check if the logo is visible in light mode
